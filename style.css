@@ -1,0 +1,20 @@
+.linepage {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(#304FFE 0%, #BBDEFB 100%);
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Azeret Mono', monospace;
+}
+
+img:hover{
+    transform:scale(0.9);
+}
