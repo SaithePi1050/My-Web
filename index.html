@@ -3,6 +3,12 @@
 <head>
     <title>My personal Web</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -12,19 +18,58 @@
         <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/mzKJ3wETeHexQxynpEyczcmpUyWuujsqyrXnj1_0qm4/embed"></iframe>
         <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/VxnjJjgYvsV1cw2XWhlt70dUxPvRUJ4Hh6WT9Nk6R9c/embed"></iframe>
         <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/s0eUM7niTZYYoyXm52raKQDs99VV1EgzmOr_vnWw9Ik/embed"></iframe>
+        <br>
     </section>
     <section id="gamessec">
         <h1>My Games</h1>
         <div class="linepage"></div>
-        <a href="https://studio.code.org/projects/spritelab/5j8uHXdETiUjDUkCX4J9zeh9WsQTp28d2Brim7ocA_A" target="_blank"><img src="Coding-background.png" width="275px" lenght="275px"></a>
-        <a href="https://studio.code.org/projects/flappy/3kDckQIrgu6wbX_hwZ0ifHRIwWLlZDXIUtejEaQBDpI" target="_blank"><img src="placeholder.jpeg" width="275px" lenght="275px"></a>
+
+        <div id="carouselme" class="carousel slide" data-ride="carousel">
+
+            <!-- Wrapper for sides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="https://studio.code.org/projects/spritelab/5j8uHXdETiUjDUkCX4J9zeh9WsQTp28d2Brim7ocA_A" target="_blank"><img src="Coding-background.png" class="img-responsive" width="275px" lenght="275px"></a>
+                        <div class="carousel-content">
+                            <p>Plan Shooting (Two Players)</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="https://studio.code.org/projects/flappy/3kDckQIrgu6wbX_hwZ0ifHRIwWLlZDXIUtejEaQBDpI" target="_blank"><img src="placeholder.jpeg" class="img-responsive" width="275px" lenght="275px"></a>
+                        <div class="carousel-content">
+                            <p>Flappy Brid</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="https://studio.code.org/projects/applab/0pX9aEnhnzSwiiGM9G6sY3Y2cgy3q9Oe_lxtcDefcKI" target="_blank"><img src="download.png" class="img-responsive" width="275px" lenght="275px"></a>
+                        <div class="carousel-content">
+                            <p>Colour Art</p>
+                        </div>
+                    </center>
+                </div>
+
+            </div>
+            <!-- Left and Right controls --->
+            <a class="left carousel-control" href="#carouselme" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carouselme" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
     </section>
     <section id="chatsec">
         <h1>My Chatbot</h1>
         <div class="linepage"></div>
-        <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/9e9484b4-3086-46eb-be66-05cdec944c26">
+        <iframe allow="microphone;" width="350" height="576" src="https://console.dialogflow.com/api-client/demo/embedded/9e9484b4-3086-46eb-be66-05cdec944c26">
         </iframe>
+        <br>
+        <br>
+        <br>
     </section>
-</body>
-
-</html>
+</body></html>
