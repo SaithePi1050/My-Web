@@ -1,1 +1,1 @@
-hi
+function (hi) {}
